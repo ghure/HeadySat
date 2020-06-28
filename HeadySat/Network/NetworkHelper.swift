@@ -17,8 +17,8 @@ struct NetworkHelper {
     private let session = URLSession.shared
     var delegate: NeworkLoadingDelegate?
     
-    func callApi(url: URL) {
-        let task = session.dataTask(with: url, completionHandler: { data, response, error in
+    func callApi(configrationUrl url: UrlConfigEnum) {
+        let task = session.dataTask(with: url.url, completionHandler: { data, response, error in
             
             if error != nil {
                 if let delegate = self.delegate {
