@@ -15,6 +15,7 @@
 		18502CC224A9074300F3D6F8 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18502CC124A9074300F3D6F8 /* CategoryViewModel.swift */; };
 		18502CC624A907C100F3D6F8 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18502CC524A907C100F3D6F8 /* CategoryModel.swift */; };
 		18E9BECF24A9AEDE00B95057 /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BECE24A9AEDE00B95057 /* SubCategoryViewController.swift */; };
+		18E9BED324A9BBAD00B95057 /* VariantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BED224A9BBAD00B95057 /* VariantViewController.swift */; };
 		18F2CE4A24A8F28500D563A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CE4924A8F28500D563A9 /* AppDelegate.swift */; };
 		18F2CE4C24A8F28500D563A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CE4B24A8F28500D563A9 /* SceneDelegate.swift */; };
 		18F2CE4E24A8F28500D563A9 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2CE4D24A8F28500D563A9 /* CategoryViewController.swift */; };
@@ -33,6 +34,7 @@
 		18502CC124A9074300F3D6F8 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		18502CC524A907C100F3D6F8 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		18E9BECE24A9AEDE00B95057 /* SubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryViewController.swift; sourceTree = "<group>"; };
+		18E9BED224A9BBAD00B95057 /* VariantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantViewController.swift; sourceTree = "<group>"; };
 		18F2CE4624A8F28500D563A9 /* HeadySat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadySat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F2CE4924A8F28500D563A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F2CE4B24A8F28500D563A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		18E9BED024A9BB9100B95057 /* Variant */ = {
+			isa = PBXGroup;
+			children = (
+				18E9BED124A9BB9B00B95057 /* View */,
+			);
+			path = Variant;
+			sourceTree = "<group>";
+		};
+		18E9BED124A9BB9B00B95057 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18E9BED224A9BBAD00B95057 /* VariantViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		18F2CE3D24A8F28500D563A9 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +175,7 @@
 		18F2CE4824A8F28500D563A9 /* HeadySat */ = {
 			isa = PBXGroup;
 			children = (
+				18E9BED024A9BB9100B95057 /* Variant */,
 				18E9BECC24A9AEAF00B95057 /* SubCategory */,
 				184C138124A9222D003F24ED /* Other */,
 				18308DD724A91BAC00ACE8B7 /* Xib */,
@@ -272,6 +291,7 @@
 				18502CC624A907C100F3D6F8 /* CategoryModel.swift in Sources */,
 				18502CC224A9074300F3D6F8 /* CategoryViewModel.swift in Sources */,
 				18F2CE4C24A8F28500D563A9 /* SceneDelegate.swift in Sources */,
+				18E9BED324A9BBAD00B95057 /* VariantViewController.swift in Sources */,
 				18308DDA24A91C0800ACE8B7 /* WithLabelTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
